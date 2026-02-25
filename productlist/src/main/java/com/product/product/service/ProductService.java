@@ -26,7 +26,7 @@ public class ProductService {
     @Autowired
     private CategoryRepository categoryRepository;
 
-
+// this method is used for create a product
     public ProductDto createNewProduct(ProductDto productDto) {
         //find category is present or not
        Category category =  categoryRepository.findById(productDto.getCategoryId())
