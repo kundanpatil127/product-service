@@ -4,7 +4,7 @@ import com.product.product.dto.CategoryDto;
 import com.product.product.entity.Category;
 
 public class CategoryMapper {
-
+// mapper git
     public static Category toCategoryEntity(CategoryDto categoryDto){
         Category category = new Category();
 
